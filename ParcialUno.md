@@ -189,6 +189,85 @@ ___
 * Inevitables compromisos de los usuarios y esto condice hacia un sistema que no subra las necesidades reales de los usuarios.
 * Pierde algo de control sobre la evolución del sistema.
 
+## Modelo en espiral (Boehm)
+> Proceso de software dirigido por el riesgo.
+Combina el evitar el cambio con tolerancia al cambio.
+![ESPIRAL](ESPIRAL.jpg)
+
+> Parte de la base de que el desarrollo de aplicaciones se debe llevar a cabo en un ciclo iterativo que se deba repetir tantas veces cmo sea necesario hasta alcanzar un objetivo. Gracias a las valoraciones regulares de los riesgos y a los controles rutinarios del producto intermedio, el modelo minimiza considerablemente el riesgo de fracaso en los proyectos de software.
+
+### PROCESOS
+* Repetición ciclica
+
+
+1. Establecimiento de objetivos (descripción de de la condiciones generales)
+2. Valoración y reducción del riesgo
+3. Desarrollo y validación (Creación de prototipos)
+4. Planeación (Si será necesario tomar otro ciclo)
+### VENTAJAS
+* Minimiza de forma decisiva el riesgo de fracaso del proceso de desarrollo gracias a los *controles regulares*
+* La valoración periódica de los riesgos cuando se aplican a entornos técnicos modernos
+* Siempre es posible obtener y tener en cuenta el feedback
+
+### DESVENTAJAS
+* Gran esfuerzo de gestión
+* Decisiones periódicas pueden dilatar el proceso de desarrollo
+* Hay errores e incongruencias conceptuales
+* Know-how en análisis y gestión de riesgo esencial.
+* No apropiado para pequeños proyectos.
+## Proceso Unificado racional (RUP)
+
+> Forma disciplina de asignar tareas y responsabilidades en una empresa de desarrollo (quién hace qué, cuándo y cómo)
+* Se enfoca en la arquitectura del software
+![RUP](RUP.jpg)
+### FASE DEL CICLO DE VIDA
+* Iniciciación /Incepción
+* Elaboración
+* Desarrollo 
+* Transición
+### FLUJOS DE TRABAJO
+1. Modelado de negocio
+2. Requerimientos
+3. Análisis y diseño
+4. Implementación
+5. Pruebas
+6. Despliegue
+7. Gestión y configuración de cambios
+8. Gestión del proyecto
+9. Entorno
+### VENTAJAS
+* Mantenimiento sencillo y modificaciones locales.
+* Reutilización.
+* Ofrece a cada usuario , un filtrado personalizado de la definición del proceso aplicado, acorde con su rol dentro del proyecto.
+
+### DESVENTAJAS
+* Alto grado de complejidad.
+* Método pesado.
+* En proyectos pequeños, es posible que no se puedan cubrir los costos de dedicación del equipo de profesionales necesarios.
+
+
+## Modelo V
+>![ESPIRAL](V.jpg)
+### PROCESOS
+
+1. Análisis de requerimientos
+2. Diseño del sistema
+3. Diseño detallado
+4. Implementación de programas y prueba unitaria
+5. Prueba de integración
+6. Prueba del sistema
+7. Prueba de aceptación
+8. Operación y mantenimiento
+
+### VENTAJAS
+*  Hace explícito parte de la iteración y trabajo.
+* Especifica los roles de los distintos tipos de pruebas a realizar.
+* Involucra al usuario en las pruebas.
+### DESVENTAJAS
+* Díficil que el cliente exponga explicítamente todos los requisitos.
+* La pruebas pueden ser no tan efectivas
+* EL producto final no reflejará todos los requisitos del usuario.
+
 ## Actividades del proceso
 
 > Secuencias intercaladas de actividades técnicas, colaborativas y administrativas para especificar, diseñar y determinar la calidad de un sistema de software.
@@ -331,3 +410,5 @@ Un prototipo es una versión inicial de un sistema para demostrar conceptos e ex
 
 ## Niveles de madurez
 >![Madurez](MADUREZ.jpg)
+
+###
