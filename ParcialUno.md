@@ -448,7 +448,7 @@ Un prototipo es una versión inicial de un sistema para demostrar conceptos e ex
 * Ritmo sustentable
 * Cliente en sitio
 ## TARJETAS
-1. Histori
+1. Historia
 2. Tarea
 ## Pruebas en XP
 * Desarrollo de la primera prueba
@@ -490,3 +490,178 @@ Un prototipo es una versión inicial de un sistema para demostrar conceptos e ex
 * caling out - Uso de métodos para introducirse en una organización grande con años de experiencia en el desarrollo desoftware.
 
 # CAPITULO 4 
+
+## Requerimientos
+> Descripciones de lo que el sistema debe hacer:*el servicio que ofrece y las restricciones de su operación*
+* Proceso de descubrir, analizar, documentar y verificar los servicios y restricciones.
+
+## Tipos de requerimientos
+1. Requerimientos del usuario
+    * Enunciados en un lenguaje natural junto con diagramas acerca de qué servicio esperan los usuarios del sistema.
+        * se describen requerimientos funcionales y no funcionales en un lenguaje natural.
+2. Requerimientos del sistema
+    * Son descripciones detalladas de las funciones, los servicios y restricciones operacionales del sistema
+    (especificación funcional).
+         * Describen de manera simple el comportamiento externo  del sistema y restricciones operacionales.
+3. Requerimientos funcionales
+    * Son enunciados acerca del servicio que el istema debe proveer.
+4. Requerimientos no funcionales
+    * Son limitaciones sobre el servicio o funciones que ofrece el sistema.
+        * Rendimiento
+        * Seguridad
+        * Disponibilidad
+    * Afectan más a la arquitectura global de un sistema
+    * Siempre se escriben de manera cuantitativa
+### MÉTRICAS
+>![METRICAS](METRICAS.jpg)
+
+
+5. Requerimientos de dominio
+    * Restricciones a los requerimientos formales existentes o formas en que deben realizarme cálculos particulares.
+
+6. Requerimientos del producto
+    * Especifican o restringen el comportamiento del software.
+        * Mantenimiento
+        * Fiabilidad
+        * Seguridad
+        * Usabilidad
+7. Requerimientos de la organización
+    * Requerimientos de sistemas amplios, derivados de políticas y procedimientos en la organización del cliente y el desarrollador.
+        * Proceso operacional
+        * Proceso del desarrollo
+        * Desarrollo de utilidad
+8.  Requerimientos externos
+* Cubre todos los requerimientos derivados de factores externos al sistema y su proceso de desarrollo.
+    * Requerimientos regulatorios
+    * Requerimientos legislativos
+    * Requerimientos éticos
+## Clasificación de requerimientos
+>![REQUERIMIENTOS](REQUERIMIENTOS.jpg)
+## Usuarios de un documento de requerimientos
+>![USUARIOS](USUARIOS.jpg)
+
+## Estructura de un documento de requerimientos
+1. Prefacio
+2. Introducción
+3. Glosario
+4. Definición de requerimientos del usuario
+5. Arquitectura del sistema
+6. Especificación de requerimientos
+7. Modelos del sistema
+8. Evaluación del sistema
+9. Apéndices
+10. Índice
+
+## Formas de escribir una especificación de requerimientos del sistema
+
+* Enunciados en lenguaje natural
+* Lenguaje natural estructurado
+* Lenguajes de descripción de diseño
+* Anotación de gráficas
+* Especificaciones matemáticas
+
+## El problema del lenguaje natural
+
+Lo bueno - expresivo, intuitivo y universal.
+Lo malo - Vago, ambiguo y depende de los antecedentes del lector.
+
+## Pra disminuir la interpretación erronéa
+* Elaborar un formato estándar y asegúrese de que todas las  definiciones de requerimientos de adhieran al formato.
+* Utilice el lenguaje de manera clara para distinguir entre requerimientos obligatorios y deseables.
+* Use texto resaltado para seleccionar partes claves.
+* Asocie una razón con cada requerimiento de usuario.
+
+## Especificaciones estructuradas
+* Una manera de escribir requerimientos del sistema, donde está limitada la libertas del escritor de requerimientos y todos éstos se anotan en una forma estándar.
+* Emplean plantillas para especificar requerimientos del sistema.
+* Utiliza constructos de lenguaje de programación para mostrar alternativas e iteración.
+
+## Vista en espiral del proceso de IR
+>![VISTA](VISTAIR.jpg)
+
+## Proceso Adquisición y análisis de requerimientos
+>![PROCESO DE ADQUISICIÓN DE REQUERIMIENTOS](ADRE.jpg)
+
+### ACTIVIDADES DEL PROCESO
+1. Descubrimiento de requerimientos.
+    * Adquisición de requerimientos: Recopilar información sobre el sistema requerido.
+2. Clasificación y organización de requerimientos.
+3. Prioritization y negociación de requerimientos.
+4. Especificación de requerimientos.
+## Tipos de entrevistas
+1. Cerradas - Responder preguntas preestablecidas
+2. Abiertas - Explora rango de conflictos
+### ESCENARIOS
+> Útiles para detallar un bosquejo de descripción de requerimientos.
+>![ESCENARIO](ESCENARIO.jpg)
+# Casos de uso
+> Técnica de descubrimiento de requerimientos que se convirtió en una característica fundamental del modelado de lenguaje unificado.
+
+* Identifica actores implicados en una interacción
+* Se complementa con información adicional
+>![EJEMPLO](EJEMPLO.jpg)
+
+## Técnicas para adquirir requerimientos de los participantes que interactúan directamente con el sistema.
+1. Escenarios
+2. Casos de uso
+### DESVENTAJAS
+* No efectivas pra adiqurir requerimientos o restricciones
+    * Empresariales
+    * No funcionales
+    * Dominio
+
+## Etnográfia
+
+> Contexto social y organizacional
+*Es una técnica de observación que se usa para entender los procesos operacionales y ayudar a derivar requerimientos de apoyo para dichos procesos*
+>![ETNO](ETNO.jpg)
+
+### VENTAJAS
+
+Descubrir dos tipos de requerimientos...
+* Que se derivan de la forma en que realmente trabaja la gente
+* Que se derivan de la cooperación y el conocimiento de las activiades de otras presonas.
+* pueden combinarse con la creación de prototipos.
+
+## Revisiones de requerimientos
+
+> *Proceso donde un grupo de personas del cliente del sistema y el desarrollador del sistema leen con detalle el documento de requerimientos y buscan errores, anomalía e inconsistencias, recae en el cliente y el desarrollado de negociar como resolver los problemas*
+
+## Validación de requerimientos
+> Proceso de verificar que los requerimientos definan realmente el sistema que en verdad quiere el cliente.
+## Comprobaciones
+1. Comprobaciones de validez
+2. Comprobaciones de consistencia
+3. Comprobaciones de totalidad
+4. Comprobaciones de realismo
+5. Verificabilidad
+## Evolución de los requerimientos
+>![EVOLUCIÓN](EVORE.jpg)
+## Técnicas de validación de requerimientos que se usan individualmete o en cojunto con otras...
+1. Revisiones de requerimientos
+2. Creación de prototipos
+3. Generación de casos de prueba
+
+## Administración de requerimientos
+> Proceso de comprender y controlar  los cambios en los requerimientos del sistema.
+### PLANIACIÓN
+1. En está etapa se establece el nivel de detalle que se quiere en la administración de requerimientos.
+>![ETAPAS](ETADRE.jpg)
+
+* Identificación de requerimientos
+* Un proceso de administración del cambio
+* Políticas del seguimiento
+* Herramientas de apoyo
+    * Almacenamiento de requerimientos
+    * Adminitración del cambio
+    * Adminitración del seguimiento
+
+## Administración del cambio de requerimientos
+> Debe aplicarse a todos los cambios propuestos a los requerimientos de un sistema, después de aprobarse el documento de requerimientos.
+
+### ETAPAS PRINCIPALES
+1. Análisis del problema y especificación del cambio
+2. Análisis del cambio y estimación del costo
+3. Implementación del cambio
+
+# FIN CAPÍTULO 4
