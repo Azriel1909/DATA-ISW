@@ -411,4 +411,82 @@ Un prototipo es una versión inicial de un sistema para demostrar conceptos e ex
 ## Niveles de madurez
 >![Madurez](MADUREZ.jpg)
 
-###
+# CAPÍTULO 3
+
+## Métodos ágiles
+> Método de desarrollo incremental donde los incrementos son mínimos y, por lo general se crean las nuevas  liberaciones del sistema.
+
+* Involucra a los clientes en el proceso de desarrollo para conseguir retroalimentación.
+* Enfoque que incluye
+    + SCRUM
+    + Crystal
+    + DSDM
+* Documento clave --> Documento de requerimientos del sistema.
+## ENFOQUE PLAN-DRIVEN Y ÁGILE
+* Enfoque ágiles - Diseño e implementación como actividades centrales(iteraciones através de las actividades).
+* Enfoque basado en plan - identifica las etapas separadas en el proceso de software con salidas asociadas a cada etapa(la iteración ocurre dentro de las actividades con documentos formales usados para comunicarse entre etapas de proceso).
+>![AGILE](MAGILE.jpg)
+## Programación externa XP
+>![XP](XP.jpg)
+
+* *Spike* es un incremento donde no se realiza la programación, generalmente para diseñar la arquitectura del sistema o desarrollar documentación del sistema.
+## Principios de los métodos ágiles
+1. Desarrollo incremental
+2. Inclusión del cliente
+3. Programación en pares
+4. Cambio adaptable mediante liberaciones regulares
+5. Mantener simplicidad mediante refactorización constante.
+## Principios y prácticas
+* Planeación incremental
+* Liberaciones pequeñas
+* Diseño simple
+* Desarrollo de la primera prueba
+* Refactorización
+* Programacipon en pares
+* Propiedad colectiva
+* Integración contínua
+* Ritmo sustentable
+* Cliente en sitio
+## TARJETAS
+1. Histori
+2. Tarea
+## Pruebas en XP
+* Desarrollo de la primera prueba
+* Desarrollo de pruebas incrementales a partir de escenarios
+* Involucramiento del usuario en el desarrollo y la validación de pruebas
+* Uso de marcos de pruebas automatizadas
+## Proceso Scrum
+> Método ágile, su enfoque está en la administración iterativa del desarrollo, y no en enfoques técnicos específicos para la ingeniería de software agile.
+>![SCRUM](SCRUM.jpg)
+
+* Ciclos  Sprint - Unidad de planeación en la que se valora el trabajo a realizar, longitud física.
+* Maestro Scrum - Facilitador que ordena las reuniones
+
+### FASES
+1. Planeación del bosquejo
+2. Diseño de la arquitectura del software
+3. Conclusión del proyecto (Documentación requerida)
+    * Marcos de ayuda del sistema.
+    * Manuales del usuario.
+    * Valora lecciones aprendidas del proyecto.
+### Técnicas clave del proceso
+* Los sprints tienen longitud fija
+* Punto de partida para la planeación es la cartera del producto.
+* En la fase de selección incluye a todo el equipo del proyecto
+* Organización del equipo
+* Se presenta el proyecto a los participantes.
+
+### VENTAJAS
+* El producto se desglosa en un conjunto de piezas manejables y comprensibles.
+* Los requerimientos inestables no retrasan el proceso.
+* Todo el equipo tiene conocimiento de todo.
+* Los clientes observan la entrega a tiempo de los incrementos y obtienen retroalimentación del producto.
+* Se establece confianza entre los clientes y desarrolladores.
+
+### Escalamiento de métodos agiles
+* Los métodos agiles se enfocan en el desarrollo de sistemas pequeños y medianos.
+## Prescpectivas de escalamiento
+* Scaling up - desarrollo de sistemas grandes
+* caling out - Uso de métodos para introducirse en una organización grande con años de experiencia en el desarrollo desoftware.
+
+# CAPITULO 4 
